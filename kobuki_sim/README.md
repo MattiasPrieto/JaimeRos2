@@ -1,5 +1,19 @@
-# JaimeRos2
+# kobuki_sim
+
+Clonar el repositorio en un workspace, en una terminal escribimos lo siguiente.
+
+*cd ~/$workspace$/src*
+
+*git clone $url$*
+
+*cd ~/$workspace$*
+
+Compilamos.
+
+*colcon build --packages-select kobuki_sim*
+
 ## Instalar pkgs:
+En una terminia correr los siguientes comandos.
 
 *sudo apt install ros-foxy-xacro*
 
@@ -7,10 +21,14 @@
 
 *sudo apt install ros-foxy-joint-state-publisher-gui*
 
+*sudo apt update*
+
 ## Instalar gazebo con sus pkgs:
 *sudo apt install gazebo11*
 
 *sudo apt install ros-foxy-gazebo-ros-pkgs*
+
+*sudo apt update*
 
 ## Launch:
 En la primera terminal lanzar el siguiente comando.
